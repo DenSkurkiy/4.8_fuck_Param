@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.StudentRegistrationFormWithStepsTests" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-04-08T15:24:16" hostname="Den-MacBook-Pro.local" time="1.673">
+<testsuite name="tests.StudentRegistrationFormWithStepsTests" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-04-08T15:41:26" hostname="Den-MacBook-Pro.local" time="1.633">
   <properties/>
-  <testcase name="successfulFillFormTest()" classname="tests.StudentRegistrationFormWithStepsTests" time="1.673">
+  <testcase name="successfulFillFormTest()" classname="tests.StudentRegistrationFormWithStepsTests" time="1.633">
     <failure message="java.lang.IllegalArgumentException: File not found in classpath: img/1.png" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: File not found in classpath: img/1.png
 	at com.codeborne.selenide.commands.UploadFileFromClasspath.findFileInClasspath(UploadFileFromClasspath.java:41)
 	at com.codeborne.selenide.commands.UploadFileFromClasspath.execute(UploadFileFromClasspath.java:30)
@@ -65,11 +65,13 @@
 	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
 	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
 	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)
-	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)
-	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
