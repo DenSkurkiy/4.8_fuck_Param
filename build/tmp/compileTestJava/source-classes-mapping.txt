@@ -14,9 +14,9 @@ Pages/StudentRegistrationPage.java
  Pages.StudentRegistrationPage
 tests/StudentRegistrationFormPageObjectTests.java
  tests.StudentRegistrationFormPageObjectTests
-tests/StudentRegistrationFormWithStepsTests.java
- tests.StudentRegistrationFormWithStepsTests
-tests/StudentRegistrationFormWithFakerTests.java
- tests.StudentRegistrationFormWithFakerTests
 tests/TestBase.java
  tests.TestBase
+tests/StudentRegistrationFormWithFakerTests.java
+ tests.StudentRegistrationFormWithFakerTests
+tests/StudentRegistrationFormWithStepsTests.java
+ tests.StudentRegistrationFormWithStepsTests
