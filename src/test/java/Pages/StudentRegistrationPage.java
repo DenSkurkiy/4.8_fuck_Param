@@ -51,8 +51,10 @@ public class StudentRegistrationPage {
         // set current address
         $("#currentAddress").val(currentAddress);
         // set state and city
+        $("#state").scrollIntoView(true);
         $("#state").click();
         $("#stateCity-wrapper").$(byText(state)).click();
+        $("#city").scrollIntoView(true);
         $("#city").click();
         $("#stateCity-wrapper").$(byText(city)).click();
 

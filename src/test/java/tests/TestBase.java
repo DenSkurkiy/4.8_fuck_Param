@@ -6,6 +6,6 @@ import org.junit.jupiter.api.BeforeAll;
 public class TestBase {
     @BeforeAll
     static void setup() {
-        Configuration.startMaximized = true;
+        Configuration.startMaximized = false;
     }
 }

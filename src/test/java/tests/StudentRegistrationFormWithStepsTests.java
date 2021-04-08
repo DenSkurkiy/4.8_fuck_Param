@@ -19,7 +19,7 @@ public class StudentRegistrationFormWithStepsTests extends TestBase {
 //
                 email = faker.internet().emailAddress(),
                 gender = "Other",
-                mobile = faker.phoneNumber().cellPhone(),
+                mobile = "1234567890",
                 dayOfBirth = "10",
                 monthOfBirth = "May",
                 yearOfBirth = "1988",
@@ -60,8 +60,10 @@ public class StudentRegistrationFormWithStepsTests extends TestBase {
         // set current address
         $("#currentAddress").val(currentAddress);
         // set state and city
+        $("#state").scrollIntoView(true);
         $("#state").click();
         $("#stateCity-wrapper").$(byText(state)).click();
+        $("#city").scrollIntoView(true);
         $("#city").click();
         $("#stateCity-wrapper").$(byText(city)).click();
 

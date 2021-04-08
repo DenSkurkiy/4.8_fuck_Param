@@ -21,7 +21,7 @@ public class StudentRegistrationFormWithFakerTests extends TestBase {
 
                 email = faker.internet().emailAddress(),
                 gender = "Other",
-                mobile = faker.phoneNumber().cellPhone(),
+                mobile = "1234567890",
                 dayOfBirth = "10",
                 monthOfBirth = "May",
                 yearOfBirth = "1988",
@@ -62,10 +62,10 @@ public class StudentRegistrationFormWithFakerTests extends TestBase {
         // set current address
         $("#currentAddress").val(currentAddress);
         // set state and city
-        $("#state").click();
+        $("#state").scrollIntoView(true).click();
         $("#stateCity-wrapper").$(byText(state)).click();
         $("#city").click();
-        $("#stateCity-wrapper").$(byText(city)).click();
+        $("#stateCity-wrapper").scrollIntoView(true).$(byText(city)).click();
 
         $("#submit").click();
         $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
