@@ -1,0 +1,22 @@
+docs/Junit5Annotations.java
+ docs.Junit5Annotations
+docs/SelenideExamples.java
+ docs.SelenideExamples
+docs/CssXpathExamples.java
+ docs.CssXpathExamples
+tests/StudentRegistrationFormPageObjectTests.java
+ tests.StudentRegistrationFormPageObjectTests
+docs/RandomExamples.java
+ docs.RandomExamples
+Pages/StudentRegistrationPage.java
+ Pages.StudentRegistrationPage
+docs/juniors/Questions.java
+ docs.juniors.Questions
+tests/StudentRegistrationFormWithStepsTests.java
+ tests.StudentRegistrationFormWithStepsTests
+tests/StudentRegistrationFormWithFakerTests.java
+ tests.StudentRegistrationFormWithFakerTests
+tests/TestBase.java
+ tests.TestBase
+utils/RandomUtils.java
+ utils.RandomUtils

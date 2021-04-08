@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="docs.Junit5Annotations" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-04-08T15:24:17" hostname="Den-MacBook-Pro.local" time="0.013">
+  <properties/>
+  <testcase name="Another test" classname="docs.Junit5Annotations" time="0.011"/>
+  <testcase name="Some test" classname="docs.Junit5Annotations" time="0.001"/>
+  <system-out><![CDATA[setup here
+    beforeEach1 here
+    beforeEach here
+        anotherTest here
+    afterEach here
+    beforeEach1 here
+    beforeEach here
+        someTest here
+    afterEach here
+shutdown here
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
