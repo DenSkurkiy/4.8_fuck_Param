@@ -1,5 +1,15 @@
 package Pages;
 
+
+
+
+
+
+import io.qameta.allure.Epic;
+import io.qameta.allure.Step;
+import io.qameta.allure.Story;
+import org.junit.jupiter.api.Test;
+
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
@@ -24,10 +34,12 @@ public class StudentRegistrationPage {
             state = "Uttar Pradesh",
             city = "Merrut";
 
-    public void openPage() {
+    @Test
+    public  void openPage(){
         open("https://demoqa.com/automation-practice-form");
         $(".practice-form-wrapper").shouldHave(text("Student Registration Form"));
     }
+
 
     public void fillForm() {
         $("#firstName").val(firstName);
@@ -62,12 +74,14 @@ public class StudentRegistrationPage {
         $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
     }
 
+
     public void setBirthDate(String year, String month, String day) {
         $("#dateOfBirthInput").clear();
         $(".react-datepicker__month-select").selectOption(month);
         $(".react-datepicker__year-select").selectOption(year);
         $(".react-datepicker__day--0" + day).click();
     }
+
 
     public void checkData() {
         $x("//td[text()='Student Name']").parent().shouldHave(text(firstName + " " + lastName));

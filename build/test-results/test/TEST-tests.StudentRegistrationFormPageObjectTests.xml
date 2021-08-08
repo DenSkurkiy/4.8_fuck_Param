@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.StudentRegistrationFormPageObjectTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-08T16:33:41" hostname="Den-MacBook-Pro.local" time="2.384">
+<testsuite name="tests.StudentRegistrationFormPageObjectTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-08T12:56:18" hostname="MacBook-Pro-Denis.local" time="4.942">
   <properties/>
-  <testcase name="successfulFillFormTest()" classname="tests.StudentRegistrationFormPageObjectTests" time="2.384"/>
+  <testcase name="successfulFillFormTest()" classname="tests.StudentRegistrationFormPageObjectTests" time="4.942"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

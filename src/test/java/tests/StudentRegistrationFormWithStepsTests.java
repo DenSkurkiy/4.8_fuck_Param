@@ -70,10 +70,10 @@ public class StudentRegistrationFormWithStepsTests extends TestBase {
             $("#city").click();
             $("#stateCity-wrapper").$(byText(city)).click();
         });
-
-        $("#submit").click();
-        $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
-
+        step("submit form", () -> {
+            $("#submit").click();
+            $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
+        });
         step("check form", () -> {
             $x("//td[text()='Student Name']").parent().shouldHave(text(firstName + " " + lastName));
             $x("//td[text()='Student Email']").parent().shouldHave(text(email));

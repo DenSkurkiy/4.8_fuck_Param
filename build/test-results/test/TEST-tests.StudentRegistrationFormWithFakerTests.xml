@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.StudentRegistrationFormWithFakerTests" tests="2" skipped="0" failures="1" errors="0" timestamp="2021-04-08T16:33:29" hostname="Den-MacBook-Pro.local" time="12.429">
+<testsuite name="tests.StudentRegistrationFormWithFakerTests" tests="2" skipped="0" failures="1" errors="0" timestamp="2021-08-08T12:56:00" hostname="MacBook-Pro-Denis.local" time="18.383">
   <properties/>
-  <testcase name="negativeFillFormTest()" classname="tests.StudentRegistrationFormWithFakerTests" time="9.743">
-    <failure message="Element should have text 'Fuck' {.practice-form-wrapper}&#10;Element: '&lt;div class=&quot;practice-form-wrapper&quot;&gt;Student Registration Form&#10;Name&#10;Email&#10;Gender&#10;Male&#10;Female&#10;Other&#10;Mobile(10 Digits)&#10;Date of Birth&#10;Subjects&#10;Hobbies&#10;Sports&#10;Reading&#10;Music&#10;Picture&#10;Select picture&#10;Current Address&#10;State and City&#10;Select State&#10;Select City&#10;Submit&lt;/div&gt;'&#10;Screenshot: file:/Users/den/IdeaProjects/4.8_fuck_Param/build/reports/tests/1617899617710.0.png&#10;Page source: file:/Users/den/IdeaProjects/4.8_fuck_Param/build/reports/tests/1617899617710.0.html&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have text 'Fuck' {.practice-form-wrapper}
+  <testcase name="negativeFillFormTest()" classname="tests.StudentRegistrationFormWithFakerTests" time="12.825">
+    <failure message="Element should have text 'Fuck' {.practice-form-wrapper}&#10;Element: '&lt;div class=&quot;practice-form-wrapper&quot;&gt;Student Registration Form&#10;Name&#10;Email&#10;Gender&#10;Male&#10;Female&#10;Other&#10;Mobile(10 Digits)&#10;Date of Birth&#10;Subjects&#10;Hobbies&#10;Sports&#10;Reading&#10;Music&#10;Picture&#10;Select picture&#10;Current Address&#10;State and City&#10;Select State&#10;Select City&#10;Submit&lt;/div&gt;'&#10;Screenshot: file:/Users/den/IdeaProjects/4.8_fuck_Param/build/reports/tests/1628427371075.0.png&#10;Page source: file:/Users/den/IdeaProjects/4.8_fuck_Param/build/reports/tests/1628427371075.0.html&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should have text 'Fuck' {.practice-form-wrapper}
 Element: '&lt;div class=&quot;practice-form-wrapper&quot;&gt;Student Registration Form
 Name
 Email
@@ -24,8 +24,8 @@ State and City
 Select State
 Select City
 Submit&lt;/div&gt;'
-Screenshot: file:/Users/den/IdeaProjects/4.8_fuck_Param/build/reports/tests/1617899617710.0.png
-Page source: file:/Users/den/IdeaProjects/4.8_fuck_Param/build/reports/tests/1617899617710.0.html
+Screenshot: file:/Users/den/IdeaProjects/4.8_fuck_Param/build/reports/tests/1628427371075.0.png
+Page source: file:/Users/den/IdeaProjects/4.8_fuck_Param/build/reports/tests/1628427371075.0.html
 Timeout: 4 s.
 	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:115)
 	at com.codeborne.selenide.commands.Should.execute(Should.java:30)
@@ -127,13 +127,13 @@ Timeout: 4 s.
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </failure>
   </testcase>
-  <testcase name="successfulFillFormTest()" classname="tests.StudentRegistrationFormWithFakerTests" time="2.683"/>
+  <testcase name="successfulFillFormTest()" classname="tests.StudentRegistrationFormWithFakerTests" time="5.551"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 34663
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 41106
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-апр. 08, 2021 7:33:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+авг. 08, 2021 3:56:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
