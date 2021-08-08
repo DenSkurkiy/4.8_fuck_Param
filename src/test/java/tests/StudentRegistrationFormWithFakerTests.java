@@ -82,31 +82,31 @@ public class StudentRegistrationFormWithFakerTests extends TestBase {
         $x("//td[text()='State and City']").parent().shouldHave(text(state + " " + city));
     }
 
-    @Test
-    void negativeFillFormTest() {
-        Faker faker = new Faker();
+    //@Test
+    // void negativeFillFormTest() {
+      //  Faker faker = new Faker();
 
 
-        String firstName = faker.name().firstName(),
-                lastName = faker.name().lastName(),
+       // String firstName = faker.name().firstName(),
+       //         lastName = faker.name().lastName(),
 
-                email = faker.internet().emailAddress(),
-                gender = "Other",
-                mobile = "1234567890",
-                dayOfBirth = "10",
-                monthOfBirth = "May",
-                yearOfBirth = "1988",
-                subject1 = "Chemistry",
-                subject2 = "Commerce",
-                hobby1 = "Sports",
-                hobby2 = "Reading",
-                hobby3 = "Music",
-                picture = "1.png",
-                currentAddress = faker.address().fullAddress(),
-                state = "Uttar Pradesh",
-                city = "Merrut";
+        //        email = faker.internet().emailAddress(),
+          //      gender = "Other",
+             //   mobile = "1234567890",
+            //  dayOfBirth = "10",
+              //  monthOfBirth = "May",
+      //          yearOfBirth = "1988",
+        //        subject1 = "Chemistry",
+          //      subject2 = "Commerce",
+            //    hobby1 = "Sports",
+              //  hobby2 = "Reading",
+      //          hobby3 = "Music",
+        //        picture = "1.png",
+          //      currentAddress = faker.address().fullAddress(),
+            //    state = "Uttar Pradesh",
+              //  city = "Merrut";
 
-        open("https://demoqa.com/automation-practice-form");
-        $(".practice-form-wrapper").shouldHave(text("Fuck"));
-    }
+        //open("https://demoqa.com/automation-practice-form");
+        //$(".practice-form-wrapper").shouldHave(text("Fuck"));
+   // }
 }
