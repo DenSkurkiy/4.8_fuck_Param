@@ -33,48 +33,49 @@ public class StudentRegistrationFormWithStepsTests extends TestBase {
                 currentAddress = faker.address().fullAddress(),
                 state = "Uttar Pradesh",
                 city = "Merrut";
+
+
         step("open form", () -> {
             open("https://demoqa.com/automation-practice-form");
             $(".practice-form-wrapper").shouldHave(text("Student Registration Form"));
         });
 
         step("fill form", () -> {
-            $("#firstName").val(firstName);
-            $("#lastName").val(lastName);
-            $("#userEmail").val(email);
-            $("#genterWrapper").$(byText(gender)).click();
-            $("#userNumber").val(mobile);
-            // set date
-            $("#dateOfBirthInput").clear();
-            $(".react-datepicker__month-select").selectOption(monthOfBirth);
-            $(".react-datepicker__year-select").selectOption(yearOfBirth);
-            $(".react-datepicker__day--0" + dayOfBirth).click();
-            // set subject
-            $("#subjectsInput").val(subject1);
-            $(".subjects-auto-complete__menu-list").$(byText(subject1)).click();
-            $("#subjectsInput").val(subject2);
-            $(".subjects-auto-complete__menu-list").$(byText(subject2)).click();
-            // set hobbies
-            $("#hobbiesWrapper").$(byText(hobby1)).click();
-            $("#hobbiesWrapper").$(byText(hobby2)).click();
-            $("#hobbiesWrapper").$(byText(hobby3)).click();
-            // upload image
-            $("#uploadPicture").uploadFromClasspath("img/" + picture);
-            // set current address
-            $("#currentAddress").val(currentAddress);
-            // set state and city
-            $("#state").scrollIntoView(true);
-            $("#state").click();
-            $("#stateCity-wrapper").$(byText(state)).click();
-            $("#city").scrollIntoView(true);
-            $("#city").click();
-            $("#stateCity-wrapper").$(byText(city)).click();
-        });
-        step("submit form", () -> {
-            $("#submit").click();
+                    $("#firstName").val(firstName);
+                    $("#lastName").val(lastName);
+                    $("#userEmail").val(email);
+                    $("#genterWrapper").$(byText(gender)).click();
+                    $("#userNumber").val(mobile);
+                    // set date
+                    $("#dateOfBirthInput").clear();
+                    $(".react-datepicker__month-select").selectOption(monthOfBirth);
+                    $(".react-datepicker__year-select").selectOption(yearOfBirth);
+                    $(".react-datepicker__day--0" + dayOfBirth).click();
+                    // set subject
+                    $("#subjectsInput").val(subject1);
+                    $(".subjects-auto-complete__menu-list").$(byText(subject1)).click();
+                    $("#subjectsInput").val(subject2);
+                    $(".subjects-auto-complete__menu-list").$(byText(subject2)).click();
+                    // set hobbies
+                    $("#hobbiesWrapper").$(byText(hobby1)).click();
+                    $("#hobbiesWrapper").$(byText(hobby2)).click();
+                    $("#hobbiesWrapper").$(byText(hobby3)).click();
+                    // upload image
+                    $("#uploadPicture").uploadFromClasspath("img/" + picture);
+                    // set current address
+                    $("#currentAddress").val(currentAddress);
+                    // set state and city
+                    $("#state").scrollIntoView(true);
+                    $("#state").click();
+                    $("#stateCity-wrapper").$(byText(state)).click();
+                    $("#city").scrollIntoView(true);
+                    $("#city").click();
+                    $("#stateCity-wrapper").$(byText(city)).click();
+                    $("#submit").click();
+                });
+
+        step("Verify submit form", ()->{
             $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
-        });
-        step("check form", () -> {
             $x("//td[text()='Student Name']").parent().shouldHave(text(firstName + " " + lastName));
             $x("//td[text()='Student Email']").parent().shouldHave(text(email));
             $x("//td[text()='Gender']").parent().shouldHave(text(gender));
