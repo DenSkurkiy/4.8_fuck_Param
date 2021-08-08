@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.StudentRegistrationFormWithStepsTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-08T12:56:23" hostname="MacBook-Pro-Denis.local" time="5.312">
+<testsuite name="tests.StudentRegistrationFormWithStepsTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-08T14:27:24" hostname="MacBook-Pro-Denis.local" time="7.872">
   <properties/>
-  <testcase name="successfulFillFormTest()" classname="tests.StudentRegistrationFormWithStepsTests" time="5.312"/>
+  <testcase name="successfulFillFormTest()" classname="tests.StudentRegistrationFormWithStepsTests" time="7.872"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 39187
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+авг. 08, 2021 5:27:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
 </testsuite>

@@ -17,7 +17,7 @@ allure {
     autoconfigure = true
     aspectjweaver = true
     useJUnit5 {
-        version = "${allureVersion}"
+        version = "${junitVersion}"
     }
 }
 

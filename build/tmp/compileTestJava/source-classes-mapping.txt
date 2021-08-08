@@ -4,19 +4,19 @@ docs/SelenideExamples.java
  docs.SelenideExamples
 docs/CssXpathExamples.java
  docs.CssXpathExamples
-tests/StudentRegistrationFormPageObjectTests.java
- tests.StudentRegistrationFormPageObjectTests
-docs/RandomExamples.java
- docs.RandomExamples
-Pages/StudentRegistrationPage.java
- Pages.StudentRegistrationPage
-docs/juniors/Questions.java
- docs.juniors.Questions
-tests/StudentRegistrationFormWithStepsTests.java
- tests.StudentRegistrationFormWithStepsTests
-tests/StudentRegistrationFormWithFakerTests.java
- tests.StudentRegistrationFormWithFakerTests
-tests/TestBase.java
- tests.TestBase
 utils/RandomUtils.java
  utils.RandomUtils
+docs/RandomExamples.java
+ docs.RandomExamples
+tests/TestBase.java
+ tests.TestBase
+docs/juniors/Questions.java
+ docs.juniors.Questions
+tests/StudentRegistrationFormWithFakerTests.java
+ tests.StudentRegistrationFormWithFakerTests
+tests/StudentRegistrationFormPageObjectTests.java
+ tests.StudentRegistrationFormPageObjectTests
+Pages/StudentRegistrationPage.java
+ Pages.StudentRegistrationPage
+tests/StudentRegistrationFormWithStepsTests.java
+ tests.StudentRegistrationFormWithStepsTests
